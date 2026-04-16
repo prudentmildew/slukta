@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* Language + module semantics (true for all TS in the repo) */
+    "target": "es2023",
+    "module": "esnext",
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Unused-symbol checks (see "Biome coexistence" below) */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
+}
