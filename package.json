@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "pnpm -r run dev",
     "test": "pnpm -r run test",
-    "build": "pnpm -r run build"
+    "build": "pnpm -r run build",
+    "check": "biome check",
+    "check:fix": "biome check --write"
   },
   "devDependencies": {
     "@types/node": "catalog:",
