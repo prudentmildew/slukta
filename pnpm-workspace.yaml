@@ -1,3 +1,7 @@
 packages:
   - 'apps/*'
   - '!data/*'
+
+catalog:
+  '@types/node': ^24.12.2
+  typescript: ^6.0.2
