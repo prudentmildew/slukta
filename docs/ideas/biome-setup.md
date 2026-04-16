@@ -57,19 +57,16 @@ No content moves. Everything currently in the root is universal:
   Node backend.
 - `assist.actions.source.organizeImports: on` — universal.
 
-The only deliberate absence is `"root": true`, which is the default — no
-need to state it.
-
 ## `apps/frontend/biome.json` (new)
 
 ```jsonc
 {
   "$schema": "https://biomejs.dev/schemas/2.4.12/schema.json",
-  "root": false
+  "extends": "//"
 }
 ```
 
-`"root": false` is load-bearing: without it the file would be treated as
+`"extends": "//"` is load-bearing: without it the file would be treated as
 an independent root and would **not** inherit from the repo-root config.
 `$schema` is required here (not inheritable) so editors can validate and
 autocomplete against the installed Biome version.
