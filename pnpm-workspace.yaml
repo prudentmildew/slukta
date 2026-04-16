@@ -5,3 +5,4 @@ packages:
 catalog:
   '@types/node': ^24.12.2
   typescript: ^6.0.2
+  '@biomejs/biome': ^2.4.12
