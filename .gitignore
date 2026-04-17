@@ -1,3 +1,6 @@
+# AI AI AI
+.claude/
+
 # Dependencies
 node_modules/
 npm-debug.log*
@@ -43,4 +46,3 @@ data/poc.sqlite
 *.swp
 *.swo
 *~
-
