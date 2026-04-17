@@ -36,6 +36,9 @@ logs/
 coverage/
 .nyc_output/
 
+# PoC database
+data/poc.sqlite
+
 # Misc
 *.swp
 *.swo

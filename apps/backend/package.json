@@ -1,0 +1,17 @@
+{
+	"name": "@slukta/backend",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "node --watch dist/main.js",
+		"build": "tsc -b",
+		"start": "node dist/main.js",
+		"seed": "node dist/seed.js",
+		"test": "node --test dist/**/*.test.js"
+	},
+	"devDependencies": {
+		"@types/node": "catalog:",
+		"typescript": "catalog:"
+	}
+}
