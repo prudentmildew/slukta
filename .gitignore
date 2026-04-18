@@ -41,7 +41,7 @@ coverage/
 .nyc_output/
 
 # PoC database
-data/poc.sqlite
+poc.sqlite
 
 # Misc
 *.swp
